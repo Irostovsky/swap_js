@@ -17,4 +17,12 @@ $(function(){
     return changePlace('.some_link', '.red');
   });
   
+  $('a.swap_red_inner').click(function(){
+    return changePlace('.red', '.inner');
+  });
+  
+  $('a.swap_outer_inner').click(function(){
+    return changePlace('.outer', '.inner');
+  });
+  
 });

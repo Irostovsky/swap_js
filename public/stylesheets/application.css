@@ -2,8 +2,12 @@
   border: 1px solid;
   height: 100px;
   width: 100px;
+}
+
+.container > div{
   display: inline-block;
   margin: 10px;
+  vertical-align: top;
 }
 
 .red{
@@ -24,3 +28,9 @@
   background-color: black;
   height: 70px;
 }
+
+.outer{
+  padding: 10px;
+  background-color: #FFF000;
+}
+

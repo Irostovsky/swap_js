@@ -6,9 +6,16 @@ Swap elements
   <div class='blue'></div>
   <div class='black'></div>
   <%= link_to 'Some link', '', :class => 'some_link' %>
+  <div class='outer'>
+    <div class='inner'>
+      Some text here
+    </div>  
+  </div>
 </div>
 
 <%= link_to 'Swap red-blue', '#', :class => 'swap_red_blue' %>
 <%= link_to 'Swap red-black', '#', :class => 'swap_red_black' %>
 <%= link_to 'Swap Some link-red', '#', :class => 'swap_some_link_red' %>
+<%= link_to 'Swap red inner', '#', :class => 'swap_red_inner' %>
+<%= link_to 'Swap outer inner', '#', :class => 'swap_outer_inner' %>
 

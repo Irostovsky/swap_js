@@ -4,6 +4,9 @@
     var swapped = $(this);
     var newPlace = $($(element)[0]);
     
+    if (swapped.parents(element).length || swapped.children(element).length) {
+      return swapped;
+    };
     
     swapped.after(newPlace.clone());
     newPlace.after(swapped);
