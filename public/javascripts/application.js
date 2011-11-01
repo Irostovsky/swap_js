@@ -13,4 +13,8 @@ $(function(){
     return changePlace('.red', '.black');
   });
   
+  $('a.swap_some_link_red').click(function(){
+    return changePlace('.some_link', '.red');
+  });
+  
 });
