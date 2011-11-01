@@ -6,21 +6,21 @@
   margin: 10px;
 }
 
-.first{
+.red{
   background-color: red;
 }
 
-.container .second{
+.container .green{
   background-color: green;
   height: 90px;
 }
 
-.container  .third{
+.container  .blue{
   background-color: blue;
   height: 80px;
 }
 
-.container .fourth{
+.container .black{
   background-color: black;
   height: 70px;
 }
