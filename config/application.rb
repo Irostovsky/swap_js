@@ -8,6 +8,6 @@ module SwapJs
   class Application < Rails::Application
     config.encoding = "utf-8"
     config.filter_parameters += [:password]
-    config.action_view.javascript_expansions[:defaults] = ['jquery', 'jquery_ujs']
+    config.action_view.javascript_expansions[:defaults] = ['jquery', 'jquery_ujs', 'swap.jquery']
   end
 end

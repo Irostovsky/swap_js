@@ -1,0 +1,26 @@
+.container div{
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.first{
+  background-color: red;
+}
+
+.container .second{
+  background-color: green;
+  height: 90px;
+}
+
+.container  .third{
+  background-color: blue;
+  height: 80px;
+}
+
+.container .fourth{
+  background-color: black;
+  height: 70px;
+}

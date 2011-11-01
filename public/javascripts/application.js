@@ -1,3 +1,8 @@
 $(function(){
-  console.info('Hello');
+  
+  $('a.swap').click(function(){
+    $('.first').swap('.third');
+    return false;
+  });
+  
 });
