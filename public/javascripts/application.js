@@ -14,7 +14,7 @@ $(function(){
   });
   
   $('a.swap_some_link_red').click(function(){
-    return changePlace('.some_link', '.red');
+    return changePlace('.container .red', '.some_link');
   });
   
   $('a.swap_red_inner').click(function(){

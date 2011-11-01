@@ -1,7 +1,7 @@
 (function(jQuery) {
 
   jQuery.fn.swap = function(element){
-    var swapped = $(this);
+    var swapped = $(this[0]);
     var newPlace = $($(element)[0]);
     
     if (swapped.parents(element).length || swapped.children(element).length) {
